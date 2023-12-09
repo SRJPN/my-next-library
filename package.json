@@ -2,6 +2,9 @@
   "name": "my-next-library",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
